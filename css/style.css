@@ -4,3 +4,15 @@
     margin: 0;
     padding: 0;
 }
+
+.flex-container{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.nav-positioning{
+    justify-content: space-between;
+}
