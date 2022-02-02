@@ -9,6 +9,14 @@ body{
     background-color: black;
 }
 
+main{
+    overflow-y: auto;
+    height: 84vh;
+    background-color: red; /* da eliminare */
+    width: 95vw;
+    margin: 0 auto;
+}
+
 nav.flex-container{
     height: 9vh;
     background-color: rgb(34, 34, 34);
