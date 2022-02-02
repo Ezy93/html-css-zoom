@@ -9,6 +9,7 @@ body{
     background-color: black;
 }
 
+
 main{
     overflow-y: auto;
     height: 84vh;
@@ -32,8 +33,20 @@ nav.flex-container{
     flex-direction: row;
 }
 
+.flex-end{
+    justify-content: flex-end;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
 .flex-column{
     flex-direction: column;
+}
+
+.column-reverse{
+    flex-direction: column-reverse;
 }
 
 .wrap{
@@ -52,12 +65,27 @@ nav.flex-container{
     justify-content: space-around;
 }
 
+.altezza{
+    height: 7vh;
+}
+
+.distance{
+    margin: 5px;
+}
+
 .nav-link-gap{
     margin-right: 1.5rem;
 }
 
 .txt-color-w{
     color: white;
+}
+
+.btn{
+    height: 58%;
+    background-color: grey;
+    padding: 4px;
+    border-radius: 5px;
 }
 
 .fa-share-square{
