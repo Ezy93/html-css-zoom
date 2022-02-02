@@ -12,9 +12,9 @@ body{
 main{
     overflow-y: auto;
     height: 84vh;
-    background-color: red; /* da eliminare */
-    width: 95vw;
+    width: 100vw;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 nav.flex-container{
@@ -32,8 +32,24 @@ nav.flex-container{
     flex-direction: row;
 }
 
+.flex-column{
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.row-gap{
+    gap: 20px;
+}
+
 .nav-positioning{
     justify-content: space-between;
+}
+
+.img-postioning{
+    justify-content: space-around;
 }
 
 .nav-link-gap{
