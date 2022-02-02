@@ -5,6 +5,17 @@
     padding: 0;
 }
 
+body{
+    background-color: black;
+}
+
+nav.flex-container{
+    height: 9vh;
+    background-color: rgb(34, 34, 34);
+    align-items: center;
+    text-align: center;
+}
+
 .flex-container{
     display: flex;
 }
@@ -15,4 +26,41 @@
 
 .nav-positioning{
     justify-content: space-between;
+}
+
+.nav-link-gap{
+    margin-right: 1.5rem;
+}
+
+.txt-color-w{
+    color: white;
+}
+
+.fa-share-square{
+    color: yellowgreen;
+}
+
+.fa-microphone,
+.fa-video,
+.fa-user-plus,
+.fa-user-friends,
+.fa-chart-bar,
+.fa-share-square,
+.fa-comment,
+.fa-record-vinyl,
+.fa-th-large,
+.fa-ellipsis-h{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.fa-angle-up{
+    padding-top: 12px;
+}
+
+
+#txt-red{
+    color: red;
+    background-color: rgb(72, 72, 72);
+    padding: 25px 16px;
 }
